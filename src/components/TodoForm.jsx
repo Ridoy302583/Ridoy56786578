@@ -11,7 +11,7 @@ function TodoForm({ addTodo }) {
 
   return (
     <form onSubmit={handleSubmit} className="mb-6">
-      <div className="flex items-center bg-white rounded-lg shadow-sm overflow-hidden">
+      <div className="flex items-center bg-white rounded-lg shadow-sm overflow-hidden border-2 border-accent">
         <input
           type="text"
           value={text}
